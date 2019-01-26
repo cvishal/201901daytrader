@@ -10,7 +10,7 @@ COPY ./server.xml /config
 COPY ./binary/application/* /config/apps/
 RUN mkdir /config/lib
 RUN mkdir /config/lib/global
-COPY ./binary/lib/* /config/lib/
+COPY ./lib/* /config/lib/
 COPY ./commons-logging-1.1.3.jar /config/lib/global
 
 #FEATURES: Install any features that are required
