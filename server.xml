@@ -67,4 +67,5 @@
     </dataSource>
     <variable name="WAS_INSTALL_ROOT" value="!{WAS_INSTALL_ROOT}"/>
     <variable name="DERBY_JDBC_DRIVER_PATH" value="${WAS_INSTALL_ROOT}/derby/lib"/>
+    <application id="DayTrader-EE6" location="daytrader3ee6.ear" name="DayTrader-EE6" type="ear"/>
 </server>
